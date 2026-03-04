@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: https://food-recipe-backend-7l4q.onrender.com
+  baseURL: "https://food-recipe-backend-7l4q.onrender.com"
 });
 
 export const getRecipes = () => API.get("/");
