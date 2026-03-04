@@ -1,8 +1,8 @@
-# Course Catalog System
+# Recipe Managment System
 
 ## Overview
 
-The Course Catalog System is a Full Stack MERN (MongoDB, Express.js, React.js, Node.js) application designed to manage academic courses efficiently. The system provides complete CRUD functionality along with bookmarking, filtering, sorting, and dynamic UI updates.
+The Recipe Managment System is a Full Stack MERN (MongoDB, Express.js, React.js, Node.js) application designed to manage academic courses efficiently. The system provides complete CRUD functionality along with bookmarking, filtering, sorting, and dynamic UI updates.
 
 This project demonstrates full-stack architecture, RESTful API development, database modeling, and modular frontend component design.
 
@@ -10,7 +10,7 @@ This project demonstrates full-stack architecture, RESTful API development, data
 
 ## Features
 
-### Course Management (CRUD Operations)
+### Recipe Management System (CRUD Operations)
 
 - Create new recipe with validation
 - Retrieve and display all recipes
@@ -75,16 +75,16 @@ The frontend communicates with the backend using RESTful APIs. The backend proce
 ## CRUD Implementation
 
 ### Create
-Courses are created using a `POST` request with required field validation before storing in MongoDB.
+recipes are created using a `POST` request with required field validation before storing in MongoDB.
 
 ### Read
-Courses are retrieved using `GET` requests and rendered dynamically in a structured card layout.
+recipes are retrieved using `GET` requests and rendered dynamically in a structured card layout.
 
 ### Update
-Course details are modified using `PUT` requests. The `updatedAt` field is automatically managed through Mongoose timestamps.
+recipes details are modified using `PUT` requests. The `updatedAt` field is automatically managed through Mongoose timestamps.
 
 ### Delete
-Courses are permanently removed using `DELETE` requests after confirmation.
+recipes are permanently removed using `DELETE` requests after confirmation.
 
 ---
 
