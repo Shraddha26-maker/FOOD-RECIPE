@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Food Recipe Managment System is a Full Stack MERN (MongoDB, Express.js, React.js, Node.js) application designed to manage academic courses efficiently. The system provides complete CRUD functionality along with bookmarking, filtering, sorting, and dynamic UI updates.
+The Food Recipe Managment System is a Full Stack MERN (MongoDB, Express.js, React.js, Node.js) application designed to manage academic courses efficiently. The system provides complete CRUD functionality along with filtering, searching, sorting, and dynamic UI updates.
 
 This project demonstrates full-stack architecture, RESTful API development, database modeling, and modular frontend component design.
 
@@ -20,19 +20,22 @@ This project demonstrates full-stack architecture, RESTful API development, data
 
 ### Food Recipe Managment System
 
-- add image in recipe card 
-- quicky recipe under 20 min toggle
+- search
+- veg filter
+- Quick filter
+- separate Quick page
+- image cards
 
-### Search, Filter and Sort
+### Search and filter
 
 - Search recipes by name
-- quicky recipe under 20
-- veg & non-veg toggle
+- filter recipes by category(veg/non-veg)
+- filter recipes by cooking time
+- quicky recipes toggle
 
 ### User Interface
 
 - Responsive layout
-- Loading state handling
 - Empty state handling
 - Clean UI using Tailwind CSS and DaisyUI
 - Toast notifications using React Hot Toast
@@ -123,7 +126,7 @@ Each course document includes:
 ## Project Structure
 
 ```
-Recipe-Managment System/
+Food Recipe/
 │
 ├── backend/
 │   ├── src/
@@ -201,4 +204,4 @@ npm run dev
 
 ## Author
 
-SHRADDHA BATULE..
+SHRADDHA BATULE.
